@@ -1,1 +1,31 @@
- 
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+
+<https://raw.githubusercontent.com/terziske/WBS/main/foaf.ttl>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://raw.githubusercontent.com/terziske/WBS/main/foaf.ttl#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/terziske/WBS/main/foaf.ttl#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://raw.githubusercontent.com/terziske/WBS/main/foaf.ttl#me>
+  a foaf:Person ;
+  foaf:name "Elisaveta Terziska" ;
+  foaf:title "Mrs" ;
+  foaf:givenname "Elisaveta" ;
+  foaf:family_name "Terziska" ;
+  foaf:nick "Eli" ;
+  foaf:mbox_sha1sum "51e0ad5262b53699d1db35495b1a9691df12b60d" ;
+  foaf:homepage <https://github.com/terziske/WBS> ;
+  foaf:workplaceHomepage <https://www.finki.ukim.mk/mk> ;
+  foaf:workInfoHomepage <https://finki.ukim.mk/mk/studies/PET-new> ;
+  foaf:schoolHomepage <https://acoruskovski.edu.mk/> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Anita" ;
+    foaf:mbox_sha1sum "53b93d3fae367ed154018d995a3c4ab35a2ecf7f"
+  ], [
+    a foaf:Person ;
+    foaf:name "Alex" ;
+    foaf:mbox_sha1sum "85d066f0efc6a0faa466234389205c77db26502a"
+  ] .
