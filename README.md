@@ -1,0 +1,2 @@
+# WBS
+Personal FOAF Profile
